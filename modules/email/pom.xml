@@ -32,10 +32,11 @@
     <properties>
         <email.service.enabled>true</email.service.enabled>
         <email.service.class.name>com.intuit.wasabi.email.impl.NoopEmailImpl</email.service.class.name>
-        <email.service.host>localhost</email.service.host>
+        <email.service.host>smtp.renren-inc.com</email.service.host>
+        <email.service.port>465</email.service.port>
         <email.service.from>no-reply-wasabi@example.com</email.service.from>
-        <email.service.username></email.service.username>
-        <email.service.password></email.service.password>
+        <email.service.username>fenqi-notify@renren-inc.com</email.service.username>
+        <email.service.password>vrQRXY90cuu@</email.service.password>
         <email.service.authentication.enabled>false</email.service.authentication.enabled>
         <email.service.ssl.enabled>false</email.service.ssl.enabled>
 
